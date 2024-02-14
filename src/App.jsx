@@ -51,7 +51,7 @@ const App = () => {
                 }}>
                 <img src='../public/logo.svg' width={100} />
                 <Menu
-                    theme='light'
+                    theme='dark'
                     mode='horizontal'
                     defaultSelectedKeys={['2']}
                     items={items1}

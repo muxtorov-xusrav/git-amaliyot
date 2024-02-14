@@ -33,7 +33,7 @@ const App = () => {
                             avatar={
                                 <Avatar src='https://api.dicebear.com/7.x/miniavs/svg?seed=8' />
                             }
-                            title='Card title'
+                            title={`Title ${item}`}
                             description='This is the description'
                         />
                     </Card>

@@ -19,10 +19,7 @@ const App = () => {
                             width: 300,
                         }}
                         cover={
-                            <img
-                                alt='example'
-                                src='https://codemy.uz/static/media/CodemyLogo2.2e01db6870e7a78449d8.png'
-                            />
+                            <img src='https://codemy.uz/static/media/CodemyLogo2.2e01db6870e7a78449d8.png' />
                         }
                         actions={[
                             <SettingOutlined key='setting' />,
@@ -34,7 +31,7 @@ const App = () => {
                                 <Avatar src='https://api.dicebear.com/7.x/miniavs/svg?seed=8' />
                             }
                             title={`Title ${item}`}
-                            description='This is the description'
+                            description='Description 123'
                         />
                     </Card>
                 );

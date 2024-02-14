@@ -14,6 +14,8 @@ import AnchorT from './components/Serch';
 import Inp from './components/Serch';
 import Forma from './components/Form';
 import Progr from './components/Progr/indx';
+
+import Cards from './components/card/index';
 const {Header, Content, Sider} = Layout;
 const items1 = ['5', '8', '4', '22', '8', '8'].map(item => ({
     item,
@@ -90,6 +92,7 @@ const App = () => {
                             background: colorBgContainer,
                             borderRadius: borderRadiusLG,
                         }}>
+                        <Cards />
                         Pagination1
                         <Pagination />
                         <br />

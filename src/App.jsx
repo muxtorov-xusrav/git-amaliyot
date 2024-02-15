@@ -25,20 +25,20 @@ import About from './components/About';
 const {Header, Content, Sider} = Layout;
 const items1 = ['5', '8', '4', '22', '8', '8'].map(item => ({
     item,
-    label: `Hello ${item}`,
+    label: `Lorem ${item}`,
 }));
 const items2 = [UserOutlined, LaptopOutlined, NotificationOutlined].map(
     (icon, index) => {
         const key = String(index + 1);
         return {
-            key: `sub${key}`,
+            key: `qqqqqq${key}`,
             icon: React.createElement(icon),
-            label: `subnav ${key}`,
+            label: `wwwwwww ${key}`,
             children: new Array(4).fill(null).map((_, j) => {
                 const subKey = index * 4 + j + 1;
                 return {
                     key: subKey,
-                    label: `test${subKey}`,
+                    label: `est${subKey}`,
                 };
             }),
         };

@@ -25,7 +25,7 @@ import About from './components/About';
 const {Header, Content, Sider} = Layout;
 const items1 = ['5', '8', '4', '22', '8', '8'].map(item => ({
     item,
-    label: `Hello ${item}`,
+    label: `Salom ${item}`,
 }));
 const items2 = [UserOutlined, LaptopOutlined, NotificationOutlined].map(
     (icon, index) => {
@@ -33,12 +33,12 @@ const items2 = [UserOutlined, LaptopOutlined, NotificationOutlined].map(
         return {
             key: `sub${key}`,
             icon: React.createElement(icon),
-            label: `subnav ${key}`,
+            label: `Menu ${key}`,
             children: new Array(4).fill(null).map((_, j) => {
                 const subKey = index * 4 + j + 1;
                 return {
                     key: subKey,
-                    label: `test${subKey}`,
+                    label: `Foo${subKey}`,
                 };
             }),
         };
@@ -53,11 +53,11 @@ const App = () => {
             <Header
                 style={{
                     display: 'flex',
-                    alignItems: 'center',
+                    alignItems: 'flex-end',
                 }}>
                 <img src='../public/logo.svg' width={100} />
                 <Menu
-                    theme='dark'
+                    theme='light'
                     mode='horizontal'
                     defaultSelectedKeys={['2']}
                     items={items1}

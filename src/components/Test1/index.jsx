@@ -30,14 +30,10 @@ const Card1 = () => (
                 style={{
                     padding: 32,
                 }}>
-                <Typography.Title level={3}>
-                    “antd is an enterprise-class UI design language and React UI
-                    library.”
+                <Typography.Title level={2}>
+                    Kelajakni biz bilan yarating Codemy Academy!!!
                 </Typography.Title>
-                <Button
-                    type='primary'
-                    href='https://ant.design'
-                    target='_blank'>
+                <Button type='primary' href='https://codemy.uz' target='_blank'>
                     Get Started
                 </Button>
             </Flex>

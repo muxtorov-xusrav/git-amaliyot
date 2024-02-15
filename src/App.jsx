@@ -5,15 +5,14 @@ import {
     UserOutlined,
 } from '@ant-design/icons';
 import Buttons from './components/button/index';
-import Pagination from './components/pagination/index';
 import {Layout, Menu, theme, Button, Tooltip, Watermark} from 'antd';
 import {SearchOutlined} from '@ant-design/icons';
 import Test1 from './components/Test';
 import Card1 from './components/Test1';
-import AnchorT from './components/Serch';
 import Inp from './components/Serch';
 import Forma from './components/Form';
 import Progr from './components/Progr/indx';
+import Paginations from './components/Pagination';
 
 import Cards from './components/card/index';
 const {Header, Content, Sider} = Layout;
@@ -93,17 +92,22 @@ const App = () => {
                             borderRadius: borderRadiusLG,
                         }}>
                         <Cards />
-                        Pagination1
-                        <Pagination />
                         <br />
+                        <Paginations />
                         <Buttons />
                         <br />
                         <Test1 />
-                        <Card1 />
-                        <Inp />
-                        <Forma />
-                        <br />
-                        <Watermark content='tEst'>
+                        <div
+                            style={{
+                                display: 'flex',
+                                justifyContent: 'space-around',
+                            }}>
+                            <Card1 />
+                            <Inp />
+                        </div>
+                        <Watermark content='Bexruz_M'>
+                            <br />
+                            <Forma />
                             <div style={{height: 100}} />
                             <Progr />
                         </Watermark>

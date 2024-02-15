@@ -8,10 +8,16 @@ import {Avatar, Card} from 'antd';
 const {Meta} = Card;
 
 const items = [1, 2, 3];
+// const items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 const App = () => {
     return (
-        <div style={{display: 'grid', gridTemplateColumns: 'repeat(3, auto)'}}>
+        <div
+            style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(3, auto)',
+                // paddingTop: '60px  ',
+            }}>
             {items.map(item => {
                 return (
                     <Card

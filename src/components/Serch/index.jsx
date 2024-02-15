@@ -18,6 +18,7 @@ const Inp = () => {
         <div
             style={{
                 marginBottom: '50px',
+                paddingTop: '50px',
             }}>
             <AutoComplete
                 options={options}

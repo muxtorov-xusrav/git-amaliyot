@@ -8,7 +8,7 @@ const MessageButton = () => {
     return (
         <>
             {contextHolder}
-            <Button type='primary' onClick={info}>
+            <Button type='default' onClick={info}>
                 Display normal message
             </Button>
         </>

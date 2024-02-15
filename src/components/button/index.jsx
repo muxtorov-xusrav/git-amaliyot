@@ -9,13 +9,13 @@ const App = () => (
             justifyContent: 'space-around',
             paddingTop: '3%',
         }}>
-        <Button type='primary'>dddddd Button</Button>
-        <Button>Default Button</Button>
-        <Button type='dashed'>ddddd Button</Button>
-        <Button type='text'>ssss Button</Button>
-        <Button type='link' code>
-            aaaa Button
+        <Button type='primary' code>
+            TEST Button
         </Button>
+        <Button>TEST Button</Button>
+        <Button type='dashed'>TEST Button</Button>
+        <Button type='text'>TEST Button</Button>
+        <Button type='link'>TEST Button</Button>
     </Flex>
 );
 export default App;

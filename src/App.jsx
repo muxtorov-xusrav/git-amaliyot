@@ -20,6 +20,7 @@ import MyCalendar from './components/Calendar';
 import QRcode from './components/QRcode';
 import MessageButton from './components/MessageButton';
 import Paginations from './components/pagination';
+import About from './components/About';
 
 const {Header, Content, Sider} = Layout;
 const items1 = ['5', '8', '4', '22', '8', '8'].map(item => ({
@@ -90,6 +91,7 @@ const App = () => {
                     style={{
                         padding: '0 24px 24px',
                     }}>
+                    <About />
                     <Content
                         style={{
                             padding: 24,

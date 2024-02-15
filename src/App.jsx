@@ -6,7 +6,7 @@ import {
 } from '@ant-design/icons';
 import Buttons from './components/button/index';
 import Pagination from './components/pagination/index';
-import {Layout, Menu, theme, Button, Tooltip, Watermark} from 'antd';
+import {Layout, Menu, theme, Button, Tooltip, Watermark, Flex} from 'antd';
 import {SearchOutlined} from '@ant-design/icons';
 import Test1 from './components/Test';
 import Card1 from './components/Test1';
@@ -16,6 +16,11 @@ import Forma from './components/Form';
 import Progr from './components/Progr/indx';
 
 import Cards from './components/card/index';
+import FloatButton from './components/FloatButton';
+import GridCard from './components/GridCard';
+import MyCalendar from './components/Calendar';
+import QRcode from './components/QRcode';
+import MessageButton from './components/MessageButton';
 const {Header, Content, Sider} = Layout;
 const items1 = ['5', '8', '4', '22', '8', '8'].map(item => ({
     item,
@@ -107,6 +112,17 @@ const App = () => {
                             <div style={{height: 100}} />
                             <Progr />
                         </Watermark>
+                        <FloatButton />
+                        <GridCard />
+                        <Flex
+                            style={{marginTop: '50px'}}
+                            justify='space-around'>
+                            <MyCalendar />
+                            <QRcode />
+                        </Flex>
+                        <Flex justify='center' style={{marginTop: '50px'}}>
+                            <MessageButton />
+                        </Flex>
                     </Content>
                 </Layout>
             </Layout>

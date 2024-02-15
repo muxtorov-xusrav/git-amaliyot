@@ -12,9 +12,10 @@ const items = [1, 2, 3];
 const App = () => {
     return (
         <div style={{display: 'grid', gridTemplateColumns: 'repeat(3, auto)'}}>
-            {items.map(item => {
+            {items.map((item, index) => {
                 return (
                     <Card
+                        key={index + 1}
                         style={{
                             width: 300,
                         }}
